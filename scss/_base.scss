@@ -55,3 +55,30 @@ img {
     height: auto;
     max-width: 100%;
 }
+
+footer small{
+    border-top: 1px #989898 solid ;
+    //display: block;
+    @include fontSize(18px);
+    //margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-top: 4px;
+}
+
+dl {
+ padding-left: 15px;   
+}
+
+article h1 {
+    color: $color-title;
+    @include fontSize(90px);
+    margin: 48px 0;
+    text-transform: capitalize;
+    border-top: 1px #989898 solid;
+    border-bottom: 1px #989898 solid;
+}
+
+img {
+ padding-top: 20px;   
+}
+
